@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PronoStats Pro - Expert</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">⚽ PronoStats <span>PRO</span></div>
+    </nav>
+
+    <div class="menu-categories">
+        <button class="tab-btn active" onclick="changerOnglet('buts')"><i class="fas fa-fire"></i> Buts</button>
+        <button class="tab-btn" onclick="changerOnglet('corners')"><i class="fas fa-flag"></i> Corners</button>
+        <button class="tab-btn" onclick="changerOnglet('domicile')"><i class="fas fa-home"></i> Domicile</button>
+        <button class="tab-btn" onclick="changerOnglet('exterieur')"><i class="fas fa-plane"></i> Extérieur</button>
+    </div>
+
+    <main class="container">
+        <h2 id="titre-section">Meilleurs Pronos : Buts</h2>
+        <div id="liste-stats">
+            <p class="loader">Analyse des données en cours...</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
