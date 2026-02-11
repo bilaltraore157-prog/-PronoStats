@@ -21,7 +21,13 @@
     </div>
 
     <main class="container">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" onkeyup="filtrerTout()" placeholder="Chercher équipe ou % (ex: 90)...">
+        </div>
+
         <h2 id="titre-section">Meilleurs Pronos : Buts</h2>
+        
         <div id="liste-stats">
             <p class="loader">Analyse des données en cours...</p>
         </div>
